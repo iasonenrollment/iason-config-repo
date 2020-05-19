@@ -1,0 +1,9 @@
+# The dev profile will use
+# 1. H2 In memory database for storing data
+spring:
+  profiles: dev
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true

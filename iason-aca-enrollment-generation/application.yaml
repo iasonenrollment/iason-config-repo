@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: iason-aca-enrollment-generation
