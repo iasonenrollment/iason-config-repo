@@ -1,0 +1,11 @@
+# The prod profile will use
+# 1. Oracle database for storing data
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:oracle:thin:@//orcl.ckwoxp37tia0.us-east-2.rds.amazonaws.com:1521/ORCL
+    username: IASON_TRADING_PARTNER
+    password: IASON_TRADING_PARTNER
+  jpa:
+    hibernate:
+      ddl-auto: none
